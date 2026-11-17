@@ -23,7 +23,7 @@ const Login: React.FC = () => {
       </IonItem>
 <IonItem>
       <IonButton size='full' color="dark">Login</IonButton>
-      <IonButton size='full' fill='clear'>Cadastre-se</IonButton>
+      <IonButton routerLink='/Register' size='full' fill='clear'>Cadastre-se</IonButton>
       </IonItem>
     
       </IonCardContent>

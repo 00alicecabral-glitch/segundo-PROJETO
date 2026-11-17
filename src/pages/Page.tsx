@@ -1,4 +1,4 @@
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
 import { useParams } from 'react-router';
 
 import ExploreContainer from '../components/ExploreContainer';
@@ -24,6 +24,12 @@ const Page: React.FC = () => {
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <div className="botão-login">
+          <IonButton routerLink="/Login">Login</IonButton>
+        </div>
+        
+
+        
         
       </IonContent>
     </IonPage>

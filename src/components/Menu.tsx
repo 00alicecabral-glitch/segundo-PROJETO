@@ -8,6 +8,7 @@ import {
   IonMenu,
   IonMenuToggle,
   IonNote,
+  IonButton
 } from '@ionic/react';
 import {
   archiveOutline,
@@ -66,6 +67,10 @@ const Menu: React.FC = () => {
             );
           })}
         </IonList>
+        <div className="botão-login">
+                  <IonButton size='full' fill='clear' routerLink="/Login">Login</IonButton>
+                </div>
+                
       </IonContent>
     </IonMenu>
   );
